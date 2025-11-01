@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Idées salon esthétique</title>
+  <style>
+    :root{
+      --bg:#f7f9fb;
+      --card:#ffffff;
+      --accent:#d4a017;
+      --text:#0b1723;
+      --muted:#556;
+      --btn:#0b69ff;
+    }
+    *{box-sizing:border-box; margin:0; padding:0;}
+    body{
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.4;
+    }
+    header{
+      background:linear-gradient(90deg,var(--accent), #fcd580);
+      color:white;
+      padding:28px 18px;
+      text-align:center;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
+    header h1{font-size:1.8rem;}
+    .container{max-width:880px;margin:24px auto;padding:0 16px;}
+    .card{background:var(--card);padding:18px;margin:18px 0;border-radius:12px;box-shadow:0 6px 18px rgba(16,24,40,0.06);}
+    ul.link-list{list-style:none;display:grid;gap:12px;}
+    li.item{display:flex;align-items:center;justify-content:space-between;padding:12px;border-radius:10px;border:1px solid rgba(0,0,0,0.05);}
+    a.btn{padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600;background:var(--btn);color:white;}
+    a.btn:focus{outline:3px solid #cfe3ff; outline-offset:2px;}
+    .meta{font-size:0.88rem;color:var(--muted);margin-top:4px;}
+    footer{margin:28px 0 60px;color:var(--muted);font-size:0.9rem;text-align:center;}
+    .share-btns{display:flex;gap:10px;margin-top:12px;}
+    .share-btns a{padding:6px 10px;background:var(--accent);color:white;border-radius:6px;text-decoration:none;font-size:0.85rem;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Idées salon esthétique</h1>
+    <p>Découvrez ma sélection de lampes et luminaires design sur Amazon</p>
+  </header>
+  <main class="container">
+    <section class="card">
+      <h2>Produits</h2>
+      <ul class="link-list">
+        <li class="item"><div><strong>J-Line lampe P'tit Maurice - polyrésine - noir</strong><div class="meta">Lien Amazon</div></div><a class="btn" href="https://amzn.to/4qVkAT5" target="_blank" rel="noopener noreferrer">Ouvrir</a></li>
+        <li class="item"><div><strong>Rétro Industriel Rustique Luminaire Applique Murale en Corde Éclairage Vintage Edison Lampe Douille E27 pour Décoration de Maison Bar Restaurants Café Club (110-220V, ampoule non compris) [Classe énergétique A++]</strong><div class="meta">Lien Amazon</div></div><a class="btn" href="https://amzn.to/4qKNSnh" target="_blank" rel="noopener noreferrer">Ouvrir</a></li>
+        <li class="item"><div><strong>Plafonnier Rétro Vintage Industriel Lumière Double Tête Antique Lustre en Bois Métal Verre Réglable en Hauteur Lumières Chambre Lampe Restaurant Bar E27 Lampe Noir [Classe énergétique A+]</strong><div class="meta">Lien Amazon</div></div><a class="btn" href="https://amzn.to/493bCN3" target="_blank" rel="noopener noreferrer">Ouvrir</a></li>
+        <li class="item"><div><strong>Impression 3D Astronaute Moderne LED Lampe Veilleuse Lampe de Chevet Réglable Lampe a Poser Protection Yeux Bureau Chambre Salon Hôtel</strong><div class="meta">Lien Amazon</div></div><a class="btn" href="https://amzn.to/4hGMU7t" target="_blank" rel="noopener noreferrer">Ouvrir</a></li>
+        <li class="item"><div><strong>Lampe de Table Lampe de Nuit créative en céramique, Rechargeable, Lampe de Table, Lampe de Couchage, Ornement de Chevet Romantique for Couple Lampe de Bureau Romantique</strong><div class="meta">Lien Amazon</div></div><a class="btn" href="https://amzn.to/4hDwlZK" target="_blank" rel="noopener noreferrer">Ouvrir</a></li>
+        <li class="item"><div><strong>Lampe De Table Robot en Bois – Lampe De Bureau Créative Dimmable avec Bras Articulés Ajustables, Lampe LED sans Fil À Batterie pour Chambre, Salon Et Bureau BlackWalnut</strong><div class="meta">Lien Amazon</div></div><a class="btn" href="https://amzn.to/4oO9UUj" target="_blank" rel="noopener noreferrer">Ouvrir</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Partager cette page</h2>
+      <div class="share-btns">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.example.com/xyz" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://twitter.com/intent/tweet?url=https://www.example.com/xyz&text=Idées%20salon%20esthétique" target="_blank" rel="noopener noreferrer">X/Twitter</a>
+        <a href="https://api.whatsapp.com/send?text=Idées%20salon%20esthétique%20https://www.example.com/xyz" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="https://pinterest.com/pin/create/button/?url=https://www.example.com/xyz&description=Idées%20salon%20esthétique" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Généré par ChatGPT — Page statique avec vos liens Amazon.</p>
+  </footer>
+
+  <!-- Plausible Analytics -->
+  <script async defer data-domain="www.example.com" src="https://plausible.io/js/plausible.js"></script>
+</body>
+</html>
